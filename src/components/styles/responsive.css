@@ -1,0 +1,714 @@
+@media screen and (max-width: 300px) {
+  #top_bar .top-element #site_logo {
+    width: 30px;
+  }
+  #top_bar .top-element #site_name {
+    height: 10px;
+  }
+  #flag {
+    width: 30px  !important;
+  }
+  .s1 {
+    margin-bottom: 80px;
+  }
+  .s1 #photo {
+    height: 300px;
+  }
+  .s1 .column h1 {
+    font-size: 26px;
+    line-height: 22px;
+  }
+  .s1 .column h2 {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .s1 .column .buttons {
+    margin-top: 20px;
+  }
+  .s1 .column .buttons a {
+    padding: 6px 20px;
+    font-size: 10px;
+  }
+  footer #bottom_bar {
+    gap: 10px;
+  }
+  footer #bottom_bar .title {
+    font-size: 16px;
+  }
+  footer #bottom_bar .desc {
+    font-size: 12px;
+  }
+  footer #bottom_bar .columns {
+    font-size: 10px;
+  }
+  .so1 .line {
+    margin-left: 8px;
+  }
+  .so1 .title {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .so1 .steps .step .circle {
+    width: 25px;
+    height: 21px;
+  }
+  .so1 .steps .step .description {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .so2 {
+    padding: 30px 5px;
+  }
+  .so2 .form-top #save_changes {
+    padding: 8px 30px;
+  }
+  .so2 .form-top .photo .photo-buttons label, .so2 .form-top .photo .photo-buttons button {
+    padding: 5px 10px;
+  }
+  .so2 form .columns {
+    font-size: 12px;
+  }
+  .so2 form .columns .column .field-name {
+    margin-top: 5px;
+  }
+  .so2 form .columns .column input {
+    margin-top: 3px;
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+  .so2 form .columns .column select {
+    width: 80%;
+  }
+  .so3 .so3-element {
+    padding: 0px 20px;
+  }
+  .so3 .so3-element .title {
+    font-size: 20px;
+  }
+  .so3 .so3-element .inputs {
+    font-size: 12px;
+  }
+  .so3 .so3-element button {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+  .so4 .so4-element .column b {
+    font-size: 18px;
+  }
+  .so4 .so4-element .column p {
+    font-size: 11px;
+  }
+  .so4 .so4-element .photo-tile img {
+    bottom: 330px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .so4 .so4-element .photo-tile img {
+    bottom: 300px;
+  }
+}
+
+@media screen and (min-width: 730px) {
+  #top_bar {
+    margin-top: 20px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #top_bar .top-element:first-child, #top_bar .top-element:last-child {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+  }
+  #top_bar .top-element {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #top_bar .top-element #site_logo {
+    width: 70px;
+  }
+  #top_bar .top-element #site_name {
+    height: 30px;
+  }
+  #top_bar .top-element #flag {
+    width: 75px;
+  }
+  .s1 {
+    padding: 40px 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 0px;
+  }
+  .s1 #photo {
+    width: 50%;
+    position: relative;
+  }
+  .s1 #photo img {
+    border-radius: 20px;
+    -webkit-filter: unset;
+            filter: unset;
+  }
+  .s1 .column {
+    width: 50%;
+    padding: 40px 40px;
+  }
+  .s1 .column h1 {
+    color: #000;
+    font-size: 40px;
+    width: 90%;
+  }
+  .s1 .column h2 {
+    color: #000;
+    font-weight: 400;
+    width: 80%;
+  }
+  .s1 .column .buttons {
+    margin-top: 20px;
+    width: 90%;
+  }
+  .s1 .column .buttons a {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  footer #bottom_bar {
+    margin-top: 0px;
+    width: 90%;
+    padding: 10px 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 10px;
+  }
+  footer #bottom_bar .left {
+    text-align: left;
+    max-width: unset;
+    width: 225px;
+  }
+  footer #bottom_bar .left .columns {
+    font-size: 0.14rem;
+  }
+  footer #bottom_bar .middle {
+    text-align: center;
+    width: 225px;
+  }
+  footer #bottom_bar .right {
+    text-align: right;
+    width: 225px;
+  }
+  footer #bottom_bar .title {
+    font-size: 30px;
+  }
+  footer #bottom_bar .desc {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  footer #bottom_bar .columns {
+    font-size: 15px;
+  }
+  .s2 {
+    padding: 40px 50px;
+  }
+  .s2 #list li {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 14px 10px 8px 10px;
+    gap: 15px;
+  }
+  .s2 #list li .list-element {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    gap: 20px;
+    height: 100%;
+  }
+  .s2 #list li .list-element:nth-of-type(6) {
+    display: block;
+  }
+  .s2 #list li .list-element .name {
+    text-align: left;
+  }
+  .s2 #list li .list-element .data {
+    text-align: left;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .s2 #list li .profile {
+    width: 50px;
+  }
+  .s2 #list li .profile .name {
+    text-align: center;
+    padding-top: 0;
+  }
+  .s2 #list li .profile .picture {
+    padding-top: 0;
+  }
+  .s2 #list li .profile .picture .orgImg {
+    position: relative;
+    bottom: 10px;
+  }
+  .s2 #list li .suited {
+    min-width: 50px;
+  }
+  .s2 #list li .suited .data {
+    margin-top: 5px;
+  }
+  .so1 {
+    padding: 80px 40px;
+  }
+  .so1 .line {
+    margin-top: 8px;
+    height: 5px;
+    width: 85%;
+  }
+  .so1 .title {
+    text-align: left;
+    font-size: 26px;
+    line-height: 26px;
+  }
+  .so1 .steps {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 50px;
+    padding: 0px 10px;
+  }
+  .so1 .steps .step {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .so1 .steps .step .circle {
+    width: 25px;
+    height: 25px;
+  }
+  .so1 .steps .step .description {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 0;
+    margin-top: 12px;
+  }
+  .so2 {
+    padding: 30px 25px;
+  }
+  .so2 .form-top {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .so2 .form-top #save_changes {
+    padding: 15px 55px;
+    font-size: 14px;
+  }
+  .so2 .form-top .photo .photo-place {
+    width: 130px;
+    height: 130px;
+  }
+  .so2 .form-top .photo .photo-place img {
+    height: 130px;
+    width: 130px;
+  }
+  .so2 .form-top .photo .photo-buttons {
+    margin-left: 20px;
+  }
+  .so2 .form-top .photo .photo-buttons label, .so2 .form-top .photo .photo-buttons button {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+  .so2 form .columns {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-size: 13px;
+    gap: 30px;
+  }
+  .so2 form .columns .column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0px;
+  }
+  .so2 form .columns .column .field-name {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .so2 form .columns .column input {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+  }
+  .so2 form .columns .column select {
+    width: 85%;
+  }
+  .so2 form .columns .column #phone_input select {
+    max-width: 100px;
+  }
+  .so2 form .columns .column #description_area {
+    width: 350px;
+  }
+  .so2 form .captcha-div .captcha-buttons {
+    width: 300px;
+  }
+  .so2 form .captcha-div .captcha-buttons #cancel, .so2 form .captcha-div .captcha-buttons #add {
+    width: 100px;
+  }
+  .so3 {
+    padding: 0px 100px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .so3 .so3-element {
+    padding: 0px 10px;
+    margin-bottom: 30px;
+  }
+  .so3 .so3-element .title {
+    font-size: 28px;
+  }
+  .so3 .so3-element .inputs {
+    font-size: 16px;
+    width: 300px;
+  }
+  .so3 .so3-element button {
+    font-size: 17px;
+    padding: 10px 30px;
+  }
+  .so4 {
+    padding: 40px 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .so4 .so4-element {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    color: #000;
+    height: 350px;
+  }
+  .so4 .so4-element:nth-of-type(2) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .so4 .so4-element .column {
+    width: 50%;
+  }
+  .so4 .so4-element .column b {
+    font-size: 30px;
+  }
+  .so4 .so4-element .column p {
+    font-size: 14px;
+  }
+  .so4 .so4-element .photo-tile {
+    width: 50%;
+    position: relative;
+  }
+  .so4 .so4-element .photo-tile img {
+    bottom: 0;
+    -webkit-filter: unset;
+            filter: unset;
+    height: 80%;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .s1 {
+    padding: 80px 120px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 0px;
+  }
+  .s1 #photo {
+    width: 50%;
+    position: relative;
+  }
+  .s1 #photo img {
+    border-radius: 20px;
+    -webkit-filter: unset;
+            filter: unset;
+  }
+  .s1 .column {
+    width: 50%;
+    padding: 0px 40px;
+  }
+  .s1 .column h1 {
+    color: #000;
+    font-size: 62px;
+    line-height: 40px;
+    width: 90%;
+  }
+  .s1 .column h2 {
+    color: #000;
+    font-weight: 400;
+    font-size: 22px;
+    width: 90%;
+  }
+  .s1 .column .buttons {
+    margin-top: 20px;
+    width: 90%;
+  }
+  .s1 .column .buttons a {
+    padding: 10px 60px;
+    font-size: 16px;
+  }
+  footer #bottom_bar .left {
+    width: 280px;
+  }
+  footer #bottom_bar .middle {
+    width: 350px;
+    margin-right: 40px;
+  }
+  footer #bottom_bar .right {
+    width: 220px;
+  }
+  .s2 {
+    padding: 40px 80px;
+  }
+  .s2 .list-top #search_div img {
+    top: 15px;
+  }
+  .s2 .list-top #input_location {
+    padding: 13px 30px;
+    width: 180px;
+  }
+  .s2 #list li {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 14px 10px 8px 10px;
+    gap: 15px;
+  }
+  .s2 #list li .list-element {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    gap: 20px;
+    height: 100%;
+  }
+  .s2 #list li .list-element .name {
+    font-size: 16px;
+  }
+  .s2 #list li .list-element .data {
+    font-size: 11px;
+  }
+  .s2 #list li .profile {
+    width: 30px;
+  }
+  .s2 #list li .contact {
+    width: 110px;
+  }
+  .s2 #list li .description {
+    width: 300px;
+  }
+  .s2 #list li .suited {
+    min-width: 80px;
+  }
+  .s2 #list li .suited .name {
+    text-align: center;
+  }
+  .so1 {
+    padding: 80px 140px;
+  }
+  .so1 .line {
+    width: 75%;
+  }
+  .so1 .steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 5%;
+  }
+  .so1 .steps .step .description {
+    width: calc( 200px + 10%);
+  }
+  .so2 {
+    padding: 30px 100px;
+  }
+  .so2 form .columns {
+    gap: 40px;
+  }
+  .so2 form .columns .column #description_area {
+    width: 300px;
+  }
+  .so2 form .captcha-div .captcha-inner {
+    max-width: 500px;
+  }
+  .so2 form .captcha-div .captcha-inner .captcha {
+    height: 150px;
+  }
+  .so2 form .captcha-div .captcha-buttons {
+    width: 550px;
+  }
+  .so2 form .captcha-div .captcha-buttons #cancel, .so2 form .captcha-div .captcha-buttons #add {
+    width: 200px;
+  }
+  .so3 .so3-element {
+    padding: 0px 50px;
+  }
+  .so4 {
+    padding: 80px 100px;
+    gap: 20px;
+  }
+  .so4 .so4-element {
+    height: usnet;
+  }
+  .so4 .so4-element .column {
+    padding: 100px 10px 20px 30px;
+    width: 50%;
+  }
+  .so4 .so4-element .column b {
+    font-size: 30px;
+  }
+  .so4 .so4-element .column p {
+    font-size: 14px;
+  }
+  .so4 .so4-element .photo-tile {
+    padding: 50px 50px;
+    width: 50%;
+    position: relative;
+    height: 100%;
+  }
+  .so4 .so4-element .photo-tile img {
+    bottom: 0;
+    -webkit-filter: unset;
+            filter: unset;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .s1 {
+    padding: 80px 200px;
+  }
+  .s2 {
+    padding: 80px 200px;
+  }
+  footer {
+    padding: 0 120px;
+  }
+  footer #bottom_bar .left {
+    width: 300px;
+  }
+  footer #bottom_bar .middle {
+    width: 550px;
+  }
+  footer #bottom_bar .right {
+    width: 280px;
+  }
+  .so1 {
+    padding: 90px 250px;
+  }
+  .so1 .steps .step .description {
+    font-size: 18px;
+    width: 90%;
+  }
+  .so2 {
+    padding: 20px 280px;
+  }
+  .so2 form .columns .column .labels1 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .so2 form .columns .column #description_area {
+    width: 650px;
+    height: 200px;
+  }
+  .so3 {
+    padding: 0px 200px;
+  }
+  .so4 {
+    padding: 20px 200px 120px 200px;
+  }
+  .so4 .so4-element .column b {
+    font-size: 32px;
+  }
+  .so4 .so4-element .column p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .s2 #list li .profile {
+    min-width: 43px;
+    width: unset;
+  }
+  .s2 #list li .country {
+    min-width: 65px;
+    width: unset;
+  }
+  .s2 #list li .city {
+    min-width: 50px;
+    width: unset;
+  }
+  .s2 #list li .what {
+    min-width: 100px;
+    width: unset;
+  }
+  .s2 #list li .description {
+    min-width: 200px;
+    width: unset;
+  }
+  .s2 #list li .suited {
+    min-width: 90px;
+    width: unset;
+  }
+  .s2 #list li .suited .data {
+    font-size: 24px;
+  }
+  .s2 #list li .suited .data img {
+    width: 20px;
+    height: 20px;
+  }
+  .s2 #list li .contact {
+    min-width: 100px;
+    width: unset;
+  }
+  .s2 #list li .avaible_q {
+    min-width: 65px;
+    width: unset;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,75 @@
+footer {
+  position: relative;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+footer .title {
+  font-size: 0.22rem;
+  font-weight: 500;
+  color: #5C5C5C;
+}
+
+footer .desc, footer .row {
+  font-size: 0.14rem;
+  color: #5C5C5C;
+  line-height: 16px;
+}
+
+footer #bottom_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  padding: 0 15px;
+}
+
+footer #bottom_bar .left {
+  text-align: center;
+  max-width: 300px;
+  width: 95%;
+}
+
+footer #bottom_bar .left .columns {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 0.11rem;
+}
+
+footer #bottom_bar .middle {
+  text-align: center;
+}
+
+footer #bottom_bar .right {
+  text-align: center;
+}
+/*# sourceMappingURL=footer.css.map */

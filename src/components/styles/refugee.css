@@ -1,0 +1,312 @@
+.s1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+  margin-bottom: 120px;
+  background: #F8FAFB;
+}
+
+.s1 .column {
+  position: relative;
+  z-index: 2;
+  padding: 20px 20px;
+}
+
+.s1 .column h1 {
+  white-space: nowrap;
+  font-size: 0.32rem;
+  font-weight: 500;
+  line-height: 30px;
+  width: 80%;
+}
+
+.s1 .column h2 {
+  font-size: 0.16rem;
+  font-weight: 500;
+}
+
+.s1 .column .buttons {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 30px;
+}
+
+.s1 .column .buttons a {
+  white-space: nowrap;
+  text-align: center;
+  background: #2488FF;
+  padding: 7px 30px;
+  border-radius: 50px;
+  font-size: 0.12rem;
+}
+
+.s1 #photo {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+  height: 400px;
+}
+
+.s1 #photo img {
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(2px) brightness(0.8);
+          filter: blur(2px) brightness(0.8);
+}
+
+.s2 {
+  padding: 5px 15px;
+  padding-bottom: 80px;
+}
+
+.s2 .list-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  padding-bottom: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.s2 .list-top #search_div {
+  position: relative;
+}
+
+.s2 .list-top #search_div img {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  pointer-events: none;
+  top: 12px;
+  left: 10px;
+}
+
+.s2 .list-top #input_location {
+  border: 1px #D8D8D8 solid;
+  border-radius: 7px;
+  width: 145px;
+  font-size: 0.12rem;
+  padding: 10px 15px 10px 30px;
+}
+
+.s2 .list-top .search-by {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  font-size: 0.12rem;
+  line-height: 25px;
+  position: relative;
+}
+
+.s2 .list-top .search-by select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  padding-left: 5px;
+}
+
+.s2 .list-top .search-by img {
+  position: absolute;
+  right: 0;
+  margin-left: 10px;
+  width: 25px;
+  height: 25px;
+  pointer-events: none;
+}
+
+.s2 #list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 20px;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.s2 #list .no-results {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0.28rem;
+  color: #9B9B9B;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.s2 #list li {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  font-size: 0.1rem;
+  line-height: 12px;
+  background: #F8F8F8;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 3px 5px 0px #0000001A;
+          box-shadow: 0px 3px 5px 0px #0000001A;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.s2 #list li .list-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.s2 #list li .list-element:nth-of-type(6) {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.s2 #list li .profile .name {
+  font-size: 0.08rem !important;
+  padding-top: 8px;
+}
+
+.s2 #list li .profile .picture {
+  padding-top: 5px;
+}
+
+.s2 #list li .profile .picture img {
+  width: 35px;
+  height: 35px;
+}
+
+.s2 #list li .name {
+  font-weight: 600;
+}
+
+.s2 #list li .data {
+  font-weight: 400;
+}
+
+.s2 #list li .data-number {
+  font-weight: 500;
+}
+
+.s2 #list li .data-email {
+  font-weight: 300;
+}
+
+.s2 #list li .suited img {
+  width: 15px;
+  height: 15px;
+}
+
+.s2 #list li .suited .data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #9B9B9B;
+  font-size: 0.16rem;
+  line-height: 16px;
+}
+
+.s2 #list li .contact .name {
+  text-align: center !important;
+}
+
+.s2 #list li .contact .data-number, .s2 #list li .contact .data-email {
+  text-align: center !important;
+}
+
+.s2 #list li .avaible_q .data {
+  text-align: center !important;
+}
+
+.s2 #list li .country .data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.s2 #list li .country .data img {
+  padding-right: 5px;
+  width: 14px;
+  height: 11px;
+}
+
+.s2 #list li .reference-id {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+/*# sourceMappingURL=refugee.css.map */

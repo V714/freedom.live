@@ -1,0 +1,82 @@
+{
+    "title":"freedom.live",
+    "language":"English",
+    "tab1":"REFUGEE",
+    "tab2":"OFFER",
+    "refugee":{
+        "title":"Seek shelter",
+        "title2":"offer shelter",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "find_help":"Find Help",
+        "offer_help":"Offer Help",
+        
+        "enter_loc":"Enter Location",
+        "search_by":"Search by",
+        "filter_by":"Filter by",
+        "city":"City",
+        "what":"What?",
+        "country":"Country",
+        "organization":"Organization",
+        "description":"Description",
+        "suited_for":"Suited for",
+        "contact":"Contact",
+        "avaible_q":"Avaible?",
+        "avaible_y":"avaible"
+
+    },
+
+    "offer":{
+        "title":"How to offer help to ukrainians over",
+        "title_1step":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "title_2step":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "title_3step":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+
+        "save_changes":"save changes",
+        "upload_photo":"Upload Picture",
+        "delete_photo":"Delete Picture",
+        "name":"Name","name_placeholder":"Enter Name",
+        "country":"Country","country_placeholder":"Choose Country",
+        "city":"City","city_placeholder":"Choose City",
+        "people_number":"People",
+        "availability":"Availability","organization":"Organization",
+        "contact":"Contact",
+        "telephone_placeholder":"Telephone Number",
+        "email_placeholder":"E-Mail (showed on page)",
+        "email2_placeholder":"E-Mail (for offer delete)",
+        "email2_hover":"Email","email2_hover_desc":"Lorem ipsum dollar sit amit elitskfk lkakl klasjflkjlfLorem ipsum dollar sit l klasjflkjlf",
+        "suited_for":"Suited for",
+        "baby":"Parents with babys/childer",
+        "pets":"Pets",
+        "pets2":"Pets",
+        "description":"Description",
+
+        "cancel":"Cancel","add":"Add",
+
+        "how_to_del":"How to delete offer?",
+        "offer_number":"Offer Number",
+        "offer_number2":"Offer Number",
+        "request":"Request delete",
+
+        "how_to_del2":"How to delete offer?",
+        "offer2_number":"Offer Number",
+        "offer2_number2":"Offer Number",
+        "request2":"Request delete",
+
+
+        "tile1_title":"How to delete offer?",
+        "tile1_desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        
+        "tile2_title":"How to delete offer?",
+        "tile2_desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        
+    },
+
+    "footer":{
+        "contact":"Contact",
+        "contact_desc":"You can contact us over",
+        "about_title":"About Project",
+        "about_desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "about_right_title":"About Project",
+        "about_right_desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+    }
+}

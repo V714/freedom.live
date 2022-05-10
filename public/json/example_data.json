@@ -1,0 +1,182 @@
+[
+    {
+        "id":"90493asd",
+        "organization":"false",
+        "imgPath":"/images/user.webp",
+        "country":"Austria",
+        "city":"Vienna",
+        "what":"I offer shelter",
+        "description":"hi, my name is Szymon and i’m a professional shelterer at my 3 Room apartament in viennai can host you",
+        "suited":{
+            "baby":"true",
+            "pets":"true",
+            "beds":"3",
+            "people":"3"
+        },
+        "contact":{
+            "mobile":"+43 676 49459295",
+            "email":"szymon@gmail.com"
+        },
+        "avaible":"true"
+    },
+    {
+        "id":"90493asd",
+        "organization":"false",
+        "imgPath":"/images/user.webp",
+        "country":"Austria",
+        "city":"Vienna",
+        "what":"I offer shelter",
+        "description":"hi, my name is Szymon and i’m a professional shelterer at my 3 Room apartament in viennai can host you",
+        "suited":{
+            "baby":"true",
+            "pets":"false",
+            "beds":"3",
+            "people":"3"
+        },
+        "contact":{
+            "mobile":"+43 676 49459295",
+            "email":"szymon@gmail.com"
+        },
+        "avaible":"true"
+    },
+    {
+        "id":"90493asd",
+        "organization":"true",
+        "imgPath":"/images/organization.webp",
+        "country":"Austria",
+        "city":"Vienna",
+        "what":"I offer shelter",
+        "description":"hi, my name is Szymon and i’m a professional shelterer at my 3 Room apartament in viennai can host you",
+        "suited":{
+            "baby":"false",
+            "pets":"false",
+            "beds":"666",
+            "people":"1"
+        },
+        "contact":{
+            "mobile":"+43 676 49459295",
+            "email":"szymon@gmail.com"
+        },
+        "avaible":"true"
+    },
+    {
+        "id":"90493asd",
+        "organization":"false",
+        "imgPath":"/images/user.webp",
+        "country":"Austria",
+        "city":"Vienna",
+        "what":"I offer shelter",
+        "description":"hi, my name is Szymon and i’m a professional shelterer at my 3 Room apartament in viennai can host you",
+        "suited":{
+            "baby":"true",
+            "pets":"true",
+            "beds":"3",
+            "people":"3"
+        },
+        "contact":{
+            "mobile":"+43 676 49459295",
+            "email":"szymon@gmail.com"
+        },
+        "avaible":"true"
+    },
+    {
+        "id":"90493asd",
+        "organization":"true",
+        "imgPath":"/images/organization.webp",
+        "country":"Austria",
+        "city":"Graz",
+        "what":"I offer shelter",
+        "description":"hi, my name is ORGANIZATION and i’m a professional shelterer at my 3 Room apartament in viennai can host you",
+        "suited":{
+            "baby":"true",
+            "pets":"true",
+            "beds":"1",
+            "people":"50"
+        },
+        "contact":{
+            "mobile":"+43 676 49459295",
+            "email":"szymon@gmail.com"
+        },
+        "avaible":"false"
+    },
+    {
+        "id":"90493asd",
+        "organization":"false",
+        "imgPath":"/images/user.webp",
+        "country":"Austria",
+        "city":"Vienna",
+        "what":"I offer shelter",
+        "description":"hi, my name is Szymon and i’m a professional shelterer at my 3 Room apartament in viennai can host you",
+        "suited":{
+            "baby":"true",
+            "pets":"true",
+            "beds":"3",
+            "people":"3"
+        },
+        "contact":{
+            "mobile":"+43 676 49459295",
+            "email":"szymon@gmail.com"
+        },
+        "avaible":"true"
+    },
+    {
+        "id":"90493asd",
+        "organization":"false",
+        "imgPath":"/images/user.webp",
+        "country":"Austria",
+        "city":"Vienna",
+        "what":"I offer shelter",
+        "description":"hi, my name is Szymon and i’m a professional shelterer at my 3 Room apartament in viennai can host you",
+        "suited":{
+            "baby":"true",
+            "pets":"false",
+            "beds":"3",
+            "people":"3"
+        },
+        "contact":{
+            "mobile":"+43 676 49459295",
+            "email":"szymon@gmail.com"
+        },
+        "avaible":"true"
+    },
+    {
+        "id":"90493asd",
+        "organization":"true",
+        "imgPath":"/images/organization.webp",
+        "country":"Austria",
+        "city":"Vienna",
+        "what":"I offer shelter",
+        "description":"hi, my name is Szymon and i’m a professional shelterer at my 3 Room apartament in viennai can host you",
+        "suited":{
+            "baby":"false",
+            "pets":"false",
+            "beds":"666",
+            "people":"1"
+        },
+        "contact":{
+            "mobile":"+43 676 49459295",
+            "email":"szymon@gmail.com"
+        },
+        "avaible":"true"
+    },
+    {
+        "id":"90493asd",
+        "organization":"false",
+        "imgPath":"/images/user.webp",
+        "country":"Austria",
+        "city":"Graz",
+        "what":"I offer shelter",
+        "description":"hi, my name is Szymon and i’m a professional shelterer at my 3 Room apartament in viennai can host you",
+        "suited":{
+            "baby":"true",
+            "pets":"true",
+            "beds":"3",
+            "people":"3"
+        },
+        "contact":{
+            "mobile":"+43 676 49459295",
+            "email":"szymon@gmail.com"
+        },
+        "avaible":"true"
+    }
+]

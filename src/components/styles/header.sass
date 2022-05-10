@@ -1,0 +1,92 @@
+@import 'variables'
+
+#top_bar
+    display: flex
+    padding: 20px 0 50px 0
+    justify-content: space-evenly
+    align-items: center
+    flex-direction: column
+    gap: 30px
+    
+    .top-element
+        display: flex
+        align-items: flex-end
+        #site_logo
+            width: 40px
+            height: auto !important
+        #site_name
+            height: 15px
+            width: auto !important
+
+    #flag
+        width: 40px
+        height: auto !important
+
+    .switch-button
+        background: $buttonGray
+        border-radius: 25px
+        overflow: hidden
+        width: ($switchWidth+30) + px
+        color: #B5BAC7
+        line-height: 12px
+        text-align: center
+        font-size: 0.12rem
+        letter-spacing: 1px
+        position: relative
+        padding-right: $switchWidth+px
+        position: relative
+
+        &:before
+            content: "OFFER"
+            position: absolute
+            top: 0
+            bottom: 0
+            right: 0
+            width: ($switchWidth+30) + px
+            display: flex
+            align-items: center
+            justify-content: center
+            z-index: 3
+            pointer-events: none
+
+        &-checkbox
+            cursor: pointer
+            position: absolute
+            top: 0
+            left: 0
+            bottom: 0
+            width: 100%
+            height: 100%
+            opacity: 0
+            z-index: 2
+            &:checked + .switch-button-label:before 
+                
+                transform: translateX($switchWidth+px)
+                transition: transform 200ms ease-in-out
+
+            &:checked + .switch-button-label
+                color: #B5BAC7
+            
+            & + .switch-button-label 
+                position: relative
+                padding: 15px 0
+                color: #fff
+                display: block
+                user-select: none
+                pointer-events: none
+            & + .switch-button-label:before 
+                content: ""
+                background: $buttonRed
+                height: 100%
+                width: 100%
+                position: absolute
+                left: 0
+                top: 0
+                border-radius: 25px
+                transform: translateX(0)
+                transition: transform 300ms
+            
+            & + .switch-button-label .switch-button-label-span 
+                position: relative
+            
+            

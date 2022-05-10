@@ -1,0 +1,44 @@
+@import 'variables'
+
+footer
+    position: relative
+    bottom: 0
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    gap: 30px
+
+    .title
+        font-size: 0.22rem
+        font-weight: 500
+        color: $textColor
+    .desc, .row
+        font-size: 0.14rem
+        color: $textColor
+        line-height: 16px
+
+    #bottom_bar
+        display: flex
+        flex-direction: column-reverse
+        justify-content: center
+        align-items: center
+        gap: 30px
+        padding: 0 15px
+
+        .left
+            text-align: center
+            max-width: 300px
+            width: 95%
+            .columns
+                margin-top: 10px
+                display: flex
+                text-align: left
+                justify-content: space-between
+                font-size: 0.11rem
+
+        .middle
+            text-align: center
+
+        .right
+            text-align: center
