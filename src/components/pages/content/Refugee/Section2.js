@@ -17,19 +17,19 @@ export default function Section2(){
 
     useEffect(()=>{
         if(data){
-            const _data = getDataSearch(searchType,data,input)
-            if(_data)setSearchData(_data)
+            const data2 = getDataSearch(searchType,data,input)
+            if(data2)setSearchData(data2)
         }
     },[input,searchType])
 
-    const getDataSearch = (_type,_data,_input) => {
+    const getDataSearch = (_type,data2,_input) => {
         switch(_type){
             case "city":
-                return _data.filter(_item=>_item.city.toLowerCase().includes(_input.toLowerCase()))
+                return data2.filter(item2=>item2.city.toLowerCase().includes(_input.toLowerCase()))
             case "country":
-                return _data.filter(_item=>_item.country.toLowerCase().includes(_input.toLowerCase()))
+                return data2.filter(item2=>item2.country.toLowerCase().includes(_input.toLowerCase()))
             case "organization":
-                return _data.filter(_item=>_item.organization.toLowerCase().includes(_input.toLowerCase()))
+                return data2.filter(item2=>item2.organization.toLowerCase().includes(_input.toLowerCase()))
             default:
                 return undefined
             }

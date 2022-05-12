@@ -4,6 +4,6 @@ export const getLanguage = async(lang,axios) => {
 }
 
 export const getList = async(axios) => {
-    const _data = await axios.get("/json/example_data.json")
-    return _data.data
+    const data2 = await axios.get("/json/exampledata2.json")
+    return data2.data
 }

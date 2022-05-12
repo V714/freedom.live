@@ -23,8 +23,8 @@ export default function Freedom() {
   },[lang])
 
   const getLang = async() => {
-    const _data = await getLanguage("en",axios)
-    setLang(_data)
+    const data2 = await getLanguage("en",axios)
+    setLang(data2)
   }
 
   return (ready?
