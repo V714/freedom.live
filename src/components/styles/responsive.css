@@ -185,7 +185,7 @@
   }
   footer #bottom_bar {
     margin-top: 0px;
-    width: 90%;
+    width: 85%;
     padding: 10px 40px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -367,7 +367,7 @@
     max-width: 100px;
   }
   .so2 form .columns .column #description_area {
-    width: 350px;
+    width: 250px;
   }
   .so2 form .captcha-div .captcha-buttons {
     width: 300px;
@@ -376,7 +376,7 @@
     width: 100px;
   }
   .so3 {
-    padding: 0px 100px;
+    padding: 0px 50px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -621,13 +621,14 @@
 
 @media screen and (min-width: 1300px) {
   .s1 {
-    padding: 80px 200px;
+    padding: 80px 100px;
   }
   .s2 {
     padding: 80px 200px;
   }
   footer {
-    padding: 0 120px;
+    width: 90%;
+    margin: auto;
   }
   footer #bottom_bar .left {
     width: 300px;
@@ -646,7 +647,10 @@
     width: 90%;
   }
   .so2 {
-    padding: 20px 280px;
+    padding: 20px 250px;
+  }
+  .so2 form .columns .column:nth-child(2) {
+    min-width: 200px;
   }
   .so2 form .columns .column .labels1 {
     -webkit-box-orient: horizontal;
@@ -655,7 +659,7 @@
             flex-direction: row;
   }
   .so2 form .columns .column #description_area {
-    width: 650px;
+    width: 450px;
     height: 200px;
   }
   .so3 {
