@@ -18,7 +18,7 @@
     position: relative
     z-index: 1
     .title
-        font-size: 0.28rem
+        font-size: 0.24rem
         text-align: center
         line-height: 34px
         margin-bottom: 30px
@@ -50,6 +50,7 @@
                 width: 100%
                 margin-left: 20px
                 line-height: 22px
+                font-size: 0.16rem
 
 .so2
     background: #F8FAFB
@@ -108,8 +109,9 @@
             border-radius: 100px
             background: $buttonBlue
             color: #fff
-            padding: 13px 50px
+            padding: 11px 40px
             font-size: 0.14rem
+            margin-bottom: 20px
     form
         padding: 0 20px
         display: flex
@@ -129,7 +131,7 @@
                         position: absolute
                         width: 15px
                         right: 10%
-                        top: 28px
+                        top: 15px
                         pointer-events: none
                 .email-with-info
                     position: relative
@@ -151,6 +153,7 @@
                             position: relative
                             width: 20px
                             height: 20px
+                            top: 7px
                         &:hover + #tooltip_email
                             transition: 0.4s opacity ease-in-out
                             z-index: 1
@@ -172,14 +175,16 @@
                         line-height: 18px
 
                 .field-name
-                    margin-top: 20px
+                    margin-top: 10px
                     padding-left: 10px
                     font-weight: 600
+                    font-size: .14rem
                 input, select
                     margin-top: 10px
                     background: #fff
                     width: 88%
-                    padding: 10px 20px
+                    font-size: .14rem
+                    padding: 5px 20px
                     border-radius: 15px
                     box-shadow: 0px 4px 14px 0px #0000001A
                     &:focus
@@ -190,43 +195,42 @@
                     flex-direction: row
                     flex-wrap: nowrap
                     position: relative
+                    img
+                        position: absolute
+                        width: 17px
+                        height: 17px
+                        top: 19px
+                        left: 75px
                     .PhoneInput
                         display: flex
                         flex-direction: row
                         flex-wrap: wrap
-                    img
+                    .PhoneInputCountryIconImg
                         position: absolute
-                        width: 15px
-                        left: 77px
-                        top: 28px
-                        pointer-events: none
+                        width: 40px
+                        height: 40px
+                        top: 7px
+                        left: 13px
                     select
-                        font-size: 0.14rem
+                        font-size: 0.13rem
                         line-height: 25px
                         padding-left: 35px
                         height: 25px
                         width: calc(100% - 120px)
                         margin-left: 65px
-                    svg
+                    .PhoneInputCountryIconImg
                         position: absolute
-                        width: 45px
-                        height: 45px
-                        top: 10px
-                        left: 10px
-                    .PhoneInputCountryIcon 
-                        img
-                            position: absolute
-                            width: 45px
-                            height: 45px
-                            top: 10px
-                            left: 10px
+                        width: 40px
+                        height: 40px
+                        top: 7px
+                        left: 13px
 
                 .labels1
                     margin-top: 30px
                     display: flex
                     justify-content: space-between
                     flex-direction: column
-                    gap: 20px
+                    gap: 10px
                     --line: #E8EBFB
                     --dot: #9EA0BE
                     --circle: #43BA56
@@ -242,6 +246,7 @@
                         display: flex
                         gap: 5px
                         align-items: center
+                        font-size: .15rem
                     
                     #availability
                         display: none
@@ -349,15 +354,16 @@
                         
 
                 .labels2
-                    margin-top: 20px
+                    margin-top: 12px
                     gap: 10px
                     display: flex
                     flex-direction: column
 
                     label
                         display: flex
-                        gap: 5px
+                        gap: 10px
                         align-items: center
+                        font-size: .12rem
 
                     .checkbox
                         opacity: 0
@@ -406,7 +412,7 @@
                     margin-top: 10px
                     box-shadow: 0px 4px 14px 0px #0000001A
                     padding: 10px
-                    font-size: 0.16rem
+                    font-size: 0.12rem
                     border-radius: 10px
                     resize: none
                     width: 92%
@@ -480,16 +486,17 @@
         flex-direction: column
         gap: 30px
         .title
-            font-size: 0.22rem
+            font-size: 0.20rem
         
         .inputs
             display: flex
             flex-direction: column
             width: 200px
             .inputs-text
-                font-size: 0.14rem
+                font-size: 0.12rem
             input
                 margin-top: 10px
+                font-size: 0.12rem
                 background: #fff
                 padding: 10px 20px
                 border-radius: 15px

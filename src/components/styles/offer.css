@@ -20,7 +20,7 @@
 }
 
 .so1 .title {
-  font-size: 0.28rem;
+  font-size: 0.24rem;
   text-align: center;
   line-height: 34px;
   margin-bottom: 30px;
@@ -72,6 +72,7 @@
   width: 100%;
   margin-left: 20px;
   line-height: 22px;
+  font-size: 0.16rem;
 }
 
 .so2 {
@@ -171,8 +172,9 @@
   border-radius: 100px;
   background: #2488FF;
   color: #fff;
-  padding: 13px 50px;
+  padding: 11px 40px;
   font-size: 0.14rem;
+  margin-bottom: 20px;
 }
 
 .so2 form {
@@ -215,7 +217,7 @@
   position: absolute;
   width: 15px;
   right: 10%;
-  top: 28px;
+  top: 15px;
   pointer-events: none;
 }
 
@@ -242,6 +244,7 @@
   position: relative;
   width: 20px;
   height: 20px;
+  top: 7px;
 }
 
 .so2 form .columns .column .email-with-info #email_info:hover + #tooltip_email {
@@ -268,16 +271,18 @@
 }
 
 .so2 form .columns .column .field-name {
-  margin-top: 20px;
+  margin-top: 10px;
   padding-left: 10px;
   font-weight: 600;
+  font-size: .14rem;
 }
 
 .so2 form .columns .column input, .so2 form .columns .column select {
   margin-top: 10px;
   background: #fff;
   width: 88%;
-  padding: 10px 20px;
+  font-size: .14rem;
+  padding: 5px 20px;
   border-radius: 15px;
   -webkit-box-shadow: 0px 4px 14px 0px #0000001A;
           box-shadow: 0px 4px 14px 0px #0000001A;
@@ -301,6 +306,14 @@
   position: relative;
 }
 
+.so2 form .columns .column #phone_input img {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 19px;
+  left: 75px;
+}
+
 .so2 form .columns .column #phone_input .PhoneInput {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -313,16 +326,16 @@
       flex-wrap: wrap;
 }
 
-.so2 form .columns .column #phone_input img {
+.so2 form .columns .column #phone_input .PhoneInputCountryIconImg {
   position: absolute;
-  width: 15px;
-  left: 77px;
-  top: 28px;
-  pointer-events: none;
+  width: 40px;
+  height: 40px;
+  top: 7px;
+  left: 13px;
 }
 
 .so2 form .columns .column #phone_input select {
-  font-size: 0.14rem;
+  font-size: 0.13rem;
   line-height: 25px;
   padding-left: 35px;
   height: 25px;
@@ -330,20 +343,12 @@
   margin-left: 65px;
 }
 
-.so2 form .columns .column #phone_input svg {
+.so2 form .columns .column #phone_input .PhoneInputCountryIconImg {
   position: absolute;
-  width: 45px;
-  height: 45px;
-  top: 10px;
-  left: 10px;
-}
-
-.so2 form .columns .column #phone_input .PhoneInputCountryIcon img {
-  position: absolute;
-  width: 45px;
-  height: 45px;
-  top: 10px;
-  left: 10px;
+  width: 40px;
+  height: 40px;
+  top: 7px;
+  left: 13px;
 }
 
 .so2 form .columns .column .labels1 {
@@ -358,7 +363,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   --line: #E8EBFB;
   --dot: #9EA0BE;
   --circle: #43BA56;
@@ -378,6 +383,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: .15rem;
 }
 
 .so2 form .columns .column .labels1 #availability {
@@ -523,7 +529,7 @@
 }
 
 .so2 form .columns .column .labels2 {
-  margin-top: 20px;
+  margin-top: 12px;
   gap: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -538,10 +544,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 5px;
+  gap: 10px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: .12rem;
 }
 
 .so2 form .columns .column .labels2 .checkbox {
@@ -608,7 +615,7 @@
   -webkit-box-shadow: 0px 4px 14px 0px #0000001A;
           box-shadow: 0px 4px 14px 0px #0000001A;
   padding: 10px;
-  font-size: 0.16rem;
+  font-size: 0.12rem;
   border-radius: 10px;
   resize: none;
   width: 92%;
@@ -741,7 +748,7 @@
 }
 
 .so3 .so3-element .title {
-  font-size: 0.22rem;
+  font-size: 0.20rem;
 }
 
 .so3 .so3-element .inputs {
@@ -756,11 +763,12 @@
 }
 
 .so3 .so3-element .inputs .inputs-text {
-  font-size: 0.14rem;
+  font-size: 0.12rem;
 }
 
 .so3 .so3-element .inputs input {
   margin-top: 10px;
+  font-size: 0.12rem;
   background: #fff;
   padding: 10px 20px;
   border-radius: 15px;

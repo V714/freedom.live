@@ -14,17 +14,18 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 30px;
+  gap: 20px;
+  font-size: .11rem;
 }
 
 footer .title {
-  font-size: 0.22rem;
+  font-size: 0.20rem;
   font-weight: 500;
   color: #5C5C5C;
 }
 
 footer .desc, footer .row {
-  font-size: 0.14rem;
+  font-size: 0.12rem;
   color: #5C5C5C;
   line-height: 16px;
 }
@@ -43,7 +44,7 @@ footer #bottom_bar {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 30px;
+  gap: 15px;
   padding: 0 15px;
 }
 
@@ -62,7 +63,7 @@ footer #bottom_bar .left .columns {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-size: 0.11rem;
+  font-size: 0.10rem;
 }
 
 footer #bottom_bar .middle {
